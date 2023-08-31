@@ -353,7 +353,7 @@ const styles = StyleSheet.create({
        marginLeft:width/3.2,
      },droidSafeArea: {
        marginTop:
-         Platform.OS === 'android' ? StatusBar.currentHeight : RFValue(35),
+         Platform.OS === 'android' ? StatusBar.currentHeight : RFValue(0),
      },
 })
 

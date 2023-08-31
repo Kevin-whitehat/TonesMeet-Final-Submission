@@ -97,7 +97,7 @@ export default ChatDetailScreen
    alignSelf: 'center',
  },droidSafeArea: {
    marginTop:
-     Platform.OS === 'android' ? StatusBar.currentHeight : RFValue(35),
+     Platform.OS === 'android' ? StatusBar.currentHeight : RFValue(0),
  },})
 
 

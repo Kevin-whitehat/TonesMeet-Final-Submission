@@ -50,11 +50,11 @@ const styles=StyleSheet.create({
   },
   droidSafeArea: {
     marginTop:
-      Platform.OS === 'android' ? StatusBar.currentHeight : RFValue(35),
+      Platform.OS === 'android' ? StatusBar.currentHeight : RFValue(0),
   },
    flashText: {
     color: 'white',
-    fontSize: RFValue(35),
+    fontSize: RFValue(0),
     padding:10,
     alignSelf:'center',
     textAlign:'center', 

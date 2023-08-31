@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
 
   droidSafeArea: {
     marginTop:
-      Platform.OS === 'android' ? StatusBar.currentHeight : RFValue(35),
+      Platform.OS === 'android' ? StatusBar.currentHeight : RFValue(0),
   },
   back: {
     width: 100,
